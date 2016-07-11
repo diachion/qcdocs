@@ -6,6 +6,11 @@
   the other supporting sass file used 
   to build my portfolio website.
 */
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body {
+  background-color: #ccc; }
+
 /*------------------------------------*\
     $CORE
 \*------------------------------------*/
@@ -79,8 +84,6 @@
   overrides any of Bootstrap's default
   typography with my own styles
 */
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-@import url(https://fonts.googleapis.com/css?family=Lato);
 body {
   font-family: 'Lato', sans-serif; }
 
