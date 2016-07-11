@@ -1,0 +1,38 @@
+/*------------------------------------*\
+    $TYPOGRAPHY 
+\*------------------------------------*/
+/* 
+  Inludes all additional font families and
+  overrides any of Bootstrap's default
+  typography with my own styles
+*/
+
+
+
+//Links 
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+//Text
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+//Headers
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3.8em;
+}
+
+.dropshadow {
+  text-shadow: 1px 1px 6px #000;
+}
+
+.revolution {
+  color: #8cc63f;
+  text-transform: uppercase;
+  margin-top: 3.5em;
+}

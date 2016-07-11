@@ -1,0 +1,256 @@
+/*------------------------------------*\
+    GLOBAL CSS
+\*------------------------------------*/
+/*
+	The global css file thats linking to all
+  the other supporting sass file used 
+  to build my portfolio website.
+*/
+/*------------------------------------*\
+    $CORE
+\*------------------------------------*/
+/*
+  Core elements that is the basis to several of the 
+  files associated with this stylesheet and with
+  many of the other assets found in Bootstrap
+*/
+/*------------------------------------*\
+    VARIABLES
+\*------------------------------------*/
+/*------------------------------------*\
+    MIXINS
+\*------------------------------------*/
+/* 
+	Cool and useful mixins to make coding 
+	stuff easier, faster, and basically
+	allows you to do more stuff
+*/
+/*------------------------------------*\
+    GRADIENT BUILDER
+\*------------------------------------*/
+/*
+	Linear gradient backgrounds on the fly with
+	mixins in Sass, choose any direction and
+	as many colors and stops as you want
+
+	Example: linear-gradient(to top, #ccc 0%, #2b2b2b 100%);
+	Credit:  Hugo Giraudel http://www.sitepoint.com/building-linear-gradient-mixin-sass
+
+	=== Keywords ===
+	to top          : bottom,
+	to top right    : bottom left,
+	to right top    : left bottom,
+	to right        : left,
+	to bottom right : top left,
+	to right bottom : left top,
+	to bottom       : top,
+	to bottom left  : top right,
+	to left bottom  : right top,
+	to left         : right,
+	to left top     : right bottom,
+	to top left     : bottom right
+
+	=== Specific Angles ===
+	deg, rad, grad, turn
+	Example: 30deg
+
+*/
+/*------------------------------------*\
+    TRANSITION
+\*------------------------------------*/
+/*
+	Simple transition mixin in order for
+	browser support, not needed if
+	using gulp with autoprefix
+*/
+/*------------------------------------*\
+    MEDIA QUERIES
+\*------------------------------------*/
+/*
+	Simple media query mixin that allows breakpoints
+	to be declared straight inside the selector 
+	without having to group them traditionally
+*/
+/*------------------------------------*\
+    $TYPOGRAPHY 
+\*------------------------------------*/
+/* 
+  Inludes all additional font families and
+  overrides any of Bootstrap's default
+  typography with my own styles
+*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body {
+  font-family: 'Lato', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif; }
+
+h1 {
+  font-size: 3.8em; }
+
+.dropshadow {
+  text-shadow: 1px 1px 6px #000; }
+
+.revolution {
+  color: #8cc63f;
+  text-transform: uppercase;
+  margin-top: 3.5em; }
+
+/*------------------------------------*\
+    $COMPONENTS
+\*------------------------------------*/
+/* 
+   The core building blocks to develop the structure
+   and athestics of website, utilizing several
+   of Bootstrap's own assets and components
+*/
+/*------------------------------------*\
+    BUTTONS 
+\*------------------------------------*/
+/* 
+	Contains all button styles including all mixins
+	and classes that builds on top of Bootstrap's
+	own button class and assets for my site
+*/
+.btn-header {
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  font-size: 1.3em;
+  border-radius: 0;
+  border: 2px solid #fff;
+  margin: 1.5em 0.2em;
+  padding: 1em;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear; }
+  .btn-header:hover {
+    background: rgba(0, 0, 0, 0.25);
+    color: #fff; }
+
+/*------------------------------------*\
+    Cards
+\*------------------------------------*/
+/*------------------------------------*\
+    Forms
+\*------------------------------------*/
+/* 
+	 
+
+	 
+*/
+/*------------------------------------*\
+    Modals
+\*------------------------------------*/
+/*------------------------------------*\
+    Popovers/Tooltips/Helpers
+\*------------------------------------*/
+/* 
+	Stylings that customizes Bootstrap's
+	popovers and tooltips thats more
+	specific to my project
+*/
+/*------------------------------------*\
+    $STRUCTURE
+\*------------------------------------*/
+/* 
+   Structual styles thats specific to my portfolio that
+   currently does not exists within Bootstrap and
+   is only only applicable for certain areas
+*/
+/*------------------------------------*\
+    GLOBAL 
+\*------------------------------------*/
+/*------------------------------------*\
+    GLOBAL NAVIGATION
+\*------------------------------------*/
+.navbar {
+  margin-bottom: 0;
+  position: absolute;
+  width: 100%;
+  border-radius: 0; }
+
+.navbar-default {
+  border: 0;
+  background-color: #2F4858; }
+  .navbar-default .navbar-brand img {
+    width: 100%;
+    max-width: 140px;
+    position: absolute;
+    top: 0; }
+  .navbar-default .navbar-nav > li > a {
+    color: #DAF7DC; }
+    .navbar-default .navbar-nav > li > a:hover {
+      color: #7CCC6F; }
+
+/*------------------------------------*\
+    HEADER
+\*------------------------------------*/
+.splash-img {
+  background-image: url("../imgs/Typing-numbers.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50%;
+  position: relative;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -999; }
+
+.header-info {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  margin: 0 20em;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%); }
+  .header-info img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block; }
+  .header-info .fa {
+    font-size: 1.5em;
+    padding-right: 0.3em; }
+
+.arrows {
+  display: block;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%; }
+  .arrows .downarrow {
+    color: #fff;
+    font-size: 2.8em;
+    animation: downarrow 1.5s infinite;
+    position: relative; }
+    .arrows .downarrow:hover, .arrows .downarrow:active, .arrows .downarrow:focus {
+      color: #fff; }
+
+@keyframes downarrow {
+  0% {
+    opacity: 0;
+    top: -10px; }
+  75% {
+    opacity: 1;
+    top: 0; }
+  100% {
+    opacity: 0;
+    top: 5; } }
+/*------------------------------------*\
+    CONTENT
+\*------------------------------------*/
+/*------------------------------------*\
+    SIDEBAR
+\*------------------------------------*/
+/*------------------------------------*\
+    FOOTER
+\*------------------------------------*/
+
+/*# sourceMappingURL=global.css.map */

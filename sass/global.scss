@@ -1,0 +1,70 @@
+/*------------------------------------*\
+    GLOBAL CSS
+\*------------------------------------*/
+/*
+	The global css file thats linking to all
+  the other supporting sass file used 
+  to build my portfolio website.
+*/
+
+
+
+/*------------------------------------*\
+    $CORE
+\*------------------------------------*/
+/*
+  Core elements that is the basis to several of the 
+  files associated with this stylesheet and with
+  many of the other assets found in Bootstrap
+*/
+@import "_variables";
+@import "_mixins";
+@import "_typography";
+
+
+
+/*------------------------------------*\
+    $COMPONENTS
+\*------------------------------------*/
+/* 
+   The core building blocks to develop the structure
+   and athestics of website, utilizing several
+   of Bootstrap's own assets and components
+*/
+@import "components/_buttons";
+@import "components/_cards";
+@import "components/_forms";
+@import "components/_modals";
+@import "components/_popups";
+
+
+
+/*------------------------------------*\
+    $STRUCTURE
+\*------------------------------------*/
+/* 
+   Structual styles thats specific to my portfolio that
+   currently does not exists within Bootstrap and
+   is only only applicable for certain areas
+*/
+@import "structure/_global";
+@import "structure/_navigation";
+@import "structure/_header";
+@import "structure/_content";
+@import "structure/_sidebar";
+@import "structure/_footer";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

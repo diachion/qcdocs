@@ -1,0 +1,53 @@
+/*------------------------------------*\
+    VARIABLES
+\*------------------------------------*/
+
+
+$col-str:     5; //The strength of a color's lightness or darkness
+
+// Colors
+$red:         #fb1337; 
+$d-red:       darken($red,$col-str);
+$l-red:       lighten($red,$col-str);
+
+$green:       #00b591;
+$d-green:     darken($green,$col-str);
+$l-green:     lighten($green,$col-str);
+
+$teal:        #104746;
+$d-teal:      darken($teal,$col-str);
+$l-teal:      lighten($teal,$col-str);
+
+$yellow:      #efcc38;
+$d-yellow:    darken($yellow,$col-str);
+$l-yellow:    lighten($yellow,$col-str);
+
+//Different Shades
+$gray:        #bdccd4;
+$d-gray:      darken($gray,$col-str);
+$l-gray:      lighten($gray,$col-str);
+
+$cloud:       #f0f1f2;
+$d-cloud:     darken($cloud,$col-str);
+$l-cloud:     lighten($cloud,$col-str);
+
+$ash:         #2b2b2b;
+$d-ash:       darken($ash,$col-str);
+$l-ash:       lighten($ash,$col-str);
+
+// Theme
+$primary:     $green;
+$secondary:   $teal;
+
+$text:        $ash;
+$text-alt:    $cloud;
+$link:        $primary;
+$link-alt:    $cloud;
+
+
+// Other
+$easy-ease:   all .15s ease-in-out;    //Quick easing
+$gutter:      15px;                    //For spacing and gaps (keeps it consistent)
+
+
+
