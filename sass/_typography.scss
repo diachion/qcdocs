@@ -18,13 +18,26 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+p, li {
+  font-size: 1.3em;
+}
+
 //Headers
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Montserrat', sans-serif;
 }
 
+section>h1 {
+  color: #336699;
+}
+
 h1 {
   font-size: 3.8em;
+  text-transform: uppercase;
+}
+
+h2, h3, h4 {
+  color: #7CCC6F;
 }
 
 .dropshadow {

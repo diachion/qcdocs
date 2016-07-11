@@ -3,9 +3,10 @@
 \*------------------------------------*/
 .navbar {
   margin-bottom: 0;
-  position: absolute;
+  position: fixed; //absolute
   width: 100%;
   border-radius: 0;
+  z-index: 999;
 }
 
 .navbar-default {
@@ -21,12 +22,13 @@
   }
   .navbar-nav {
     >li {
+      font-size: inherit;
       >a {
         color: #DAF7DC;
         &:hover {
           color: #7CCC6F;
         }
-      }
-    }
-  }
+      } // a
+    } // li
+  } // .navbar-nav
 }

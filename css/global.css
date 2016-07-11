@@ -6,11 +6,6 @@
   the other supporting sass file used 
   to build my portfolio website.
 */
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-@import url(https://fonts.googleapis.com/css?family=Lato);
-body {
-  background-color: #ccc; }
-
 /*------------------------------------*\
     $CORE
 \*------------------------------------*/
@@ -84,14 +79,26 @@ body {
   overrides any of Bootstrap's default
   typography with my own styles
 */
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Lato);
 body {
   font-family: 'Lato', sans-serif; }
+
+p, li {
+  font-size: 1.3em; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif; }
 
+section > h1 {
+  color: #336699; }
+
 h1 {
-  font-size: 3.8em; }
+  font-size: 3.8em;
+  text-transform: uppercase; }
+
+h2, h3, h4 {
+  color: #7CCC6F; }
 
 .dropshadow {
   text-shadow: 1px 1px 6px #000; }
@@ -165,14 +172,31 @@ h1 {
 /*------------------------------------*\
     GLOBAL 
 \*------------------------------------*/
+section {
+  margin: 5em 0; }
+  section p {
+    margin-top: 3em;
+    margin-bottom: 2em; }
+
+.margin-top {
+  margin-top: 2em; }
+
+.divider {
+  border-top: 1px solid #ccc; }
+
+.blue-line {
+  height: 8px;
+  background-color: #86BBD8; }
+
 /*------------------------------------*\
     GLOBAL NAVIGATION
 \*------------------------------------*/
 .navbar {
   margin-bottom: 0;
-  position: absolute;
+  position: fixed;
   width: 100%;
-  border-radius: 0; }
+  border-radius: 0;
+  z-index: 999; }
 
 .navbar-default {
   border: 0;
@@ -182,10 +206,12 @@ h1 {
     max-width: 140px;
     position: absolute;
     top: 0; }
-  .navbar-default .navbar-nav > li > a {
-    color: #DAF7DC; }
-    .navbar-default .navbar-nav > li > a:hover {
-      color: #7CCC6F; }
+  .navbar-default .navbar-nav > li {
+    font-size: inherit; }
+    .navbar-default .navbar-nav > li > a {
+      color: #DAF7DC; }
+      .navbar-default .navbar-nav > li > a:hover {
+        color: #7CCC6F; }
 
 /*------------------------------------*\
     HEADER
