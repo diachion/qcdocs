@@ -109,6 +109,17 @@ h2, h3, h4 {
   text-transform: uppercase;
   margin-top: 3.5em; }
 
+.blurred-bg h1 {
+  color: #DAF7DC; }
+.blurred-bg h2, .blurred-bg p {
+  color: #fff; }
+.blurred-bg ul {
+  color: #fff; }
+  .blurred-bg ul .fa {
+    color: #DAF7DC; }
+.blurred-bg .fa {
+  color: #DAF7DC; }
+
 /*------------------------------------*\
     $COMPONENTS
 \*------------------------------------*/
@@ -129,7 +140,6 @@ h2, h3, h4 {
   background: rgba(255, 255, 255, 0.25);
   color: #fff;
   font-size: 1.3em;
-  border-radius: 0;
   border: 2px solid #fff;
   margin: 1.5em 0.2em;
   padding: 1em;
@@ -138,6 +148,26 @@ h2, h3, h4 {
   -moz-transition: all 0.3s linear; }
   .btn-header:hover {
     background: rgba(0, 0, 0, 0.25);
+    color: #fff; }
+
+.btn {
+  border-radius: 0; }
+  .btn:active, .btn:focus {
+    box-shadow: none; }
+
+.btn-primary {
+  color: #336699;
+  background: #fff;
+  font-size: 1.3em;
+  border: 2px solid #336699;
+  padding: 0.5em 2em;
+  margin-top: 5em;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear; }
+  .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background: #336699 !important;
+    border: 2px solid #336699 !important;
     color: #fff; }
 
 /*------------------------------------*\
@@ -188,10 +218,6 @@ section {
 .blue-line {
   height: 8px;
   background-color: #86BBD8; }
-
-.contact-icon .fa {
-  font-size: 1.5em;
-  padding-right: 0.3em; }
 
 /*------------------------------------*\
     GLOBAL NAVIGATION
@@ -283,14 +309,32 @@ section {
     CONTENT
 \*------------------------------------*/
 .list > li {
-  list-style-type: none; }
+  list-style-type: none;
+  line-height: 2em; }
   .list > li .fa {
     padding-right: 10px; }
+
+.contact-icon {
+  margin-top: 2em;
+  margin-bottom: 0; }
+  .contact-icon .fa {
+    font-size: 1.5em;
+    padding-right: 0.3em; }
 
 .services p {
   font-size: 1.2em;
   margin-top: 1em;
   margin-bottom: 3em; }
+
+.blurred-bg {
+  background-image: url("../imgs/blurred-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50%;
+  padding: 4em 0; }
+
+.marginbot-none {
+  margin-bottom: 0; }
 
 /*------------------------------------*\
     SIDEBAR

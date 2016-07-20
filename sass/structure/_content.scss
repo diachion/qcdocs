@@ -3,8 +3,18 @@
 \*------------------------------------*/
 .list > li {
   list-style-type: none;
+  line-height: 2em;
   .fa {
     padding-right: 10px;
+  }
+}
+
+.contact-icon {
+  margin-top: 2em;
+  margin-bottom: 0; 
+  .fa {
+    font-size: 1.5em;
+    padding-right: 0.3em;
   }
 }
 
@@ -14,4 +24,16 @@
     margin-top: 1em;
     margin-bottom: 3em;
   }
+}
+
+.blurred-bg {
+  background-image: url("../imgs/blurred-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50%;
+  padding: 4em 0;
+}
+
+.marginbot-none {
+  margin-bottom: 0;
 }

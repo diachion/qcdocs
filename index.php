@@ -37,24 +37,26 @@
     <p>QCDocs, the Small Business ERP, revolutionizes how small businesses manage standard business practices including accounting, purchasing, sales orders, billing, inventory, time and vacation tracking, and much more. It uses an online, document-centric approach to streamline and standardize these processes, from initiation to approval. This secure, hosted solution is accessible from anywhere with an Internet connection, requires no internal IT support, and delivers the tools your company needs to manage overhead and grow for a fraction of the cost of ERP systems.</p>
 </section>
 
-<!-- divivder --> <div class="container divider"></div>
+<!-- divivder --> <!-- <div class="container divider"></div> -->
 
-<section class="container text-center">
-  <h1>QCDocs is the Solution</h1>
-  <h2 class="margin-top">The Problem</h2>
-  <ul class="text-left margin-top list">
-    <li><span class="fa fa-caret-right"></span> Off-the-shelf accounting applications don’t handle multi-person company-wide processes</li>
-    <li><span class="fa fa-caret-right"></span> Manual processes are slow, error prone and result in poor internal control</li>
-    <li><span class="fa fa-caret-right"></span> Inconsistent policies and procedures</li>
-    <li><span class="fa fa-caret-right"></span> Slow financial reporting and poor compliance capabilities</li>
-    <li><span class="fa fa-caret-right"></span> Missing documents</li>
-  </ul>
-  <h2 class="margin-top">The QCDocs System Solution</h2>
-    <p>Quality Control Document & Process Management System</p>
-    <img src="imgs/placeholder.png">
+<section class="text-center blurred-bg">
+  <div class="container">
+    <h1>QCDocs is the Solution</h1>
+    <h2 class="margin-top">The Problem</h2>
+    <ul class="text-left margin-top list">
+      <li><span class="fa fa-caret-right"></span> Off-the-shelf accounting applications don’t handle multi-person company-wide processes</li>
+      <li><span class="fa fa-caret-right"></span> Manual processes are slow, error prone and result in poor internal control</li>
+      <li><span class="fa fa-caret-right"></span> Inconsistent policies and procedures</li>
+      <li><span class="fa fa-caret-right"></span> Slow financial reporting and poor compliance capabilities</li>
+      <li><span class="fa fa-caret-right"></span> Missing documents</li>
+    </ul>
+    <h2 class="margin-top">The QCDocs System Solution</h2>
+      <p>Quality Control Document & Process Management System</p>
+      <img src="imgs/placeholder.png">
+  </div>
 </section>
 
-<!-- divivder --> <div class="container divider"></div>
+<!-- divivder --> <!-- <div class="container divider"></div> -->
 
 <section class="container text-center">
   <h1>Services</h1>
@@ -81,38 +83,52 @@
     <h4>Use existing accounting software</h4>
       <p>QCDocs synchronizes to your existing accounting applications to standardize document naming, streamline bookkeeping entry processes, and enable dashboard reporting via the web.</p>
   </div>
+
+  <div class="col-md-12 text-center">
+    <div class="btn btn-primary">Learn More </div>
+  </div>
 </section>
 
-<!-- divivder --> <div class="container divider"></div>
+<!-- divivder --> <!-- <div class="container divider"></div> -->
 
-<section class="container text-center">
-  <h1>Client Verticals</h1>
-  <h2 class="margin-top">Key challenges and QCDocs solutions for:</h2>
-    <ul class="text-left margin-top list">
-      <li><span class="fa fa-caret-right"></span> Startup Companies</li>
-      <li><span class="fa fa-caret-right"></span> Technology & Biotech Companies</li>
-      <li><span class="fa fa-caret-right"></span> Services and Manufacturing Companies</li>
-      <li><span class="fa fa-caret-right"></span> Junior Resource & Venture Listed Public Companies</li>
-      <li><span class="fa fa-caret-right"></span> Bookkeeping & Accounting Practices</li>
-    </ul>
+<section class="text-center blurred-bg">
+  <div class="container">
+    <h1>Client Verticals</h1>
+    <h2 class="margin-top">Key challenges and QCDocs solutions for:</h2>
+      <ul class="text-left margin-top list">
+        <li><span class="fa fa-caret-right"></span> Startup Companies</li>
+        <li><span class="fa fa-caret-right"></span> Technology & Biotech Companies</li>
+        <li><span class="fa fa-caret-right"></span> Services and Manufacturing Companies</li>
+        <li><span class="fa fa-caret-right"></span> Junior Resource & Venture Listed Public Companies</li>
+        <li><span class="fa fa-caret-right"></span> Bookkeeping & Accounting Practices</li>
+      </ul>
+    <div class="col-md-12 text-center">
+      <div class="btn btn-primary">Learn More </div>
+    </div>
+  </div> <!-- container -->
 </section>
 
-<!-- divivder --> <div class="container divider"></div>
+<!-- divivder --> <!-- <div class="container divider"></div> -->
 
 <section class="container text-center">
   <h1>Implementations</h1>
     <p>QCDocs implementation and training are provided by professional accountants with extensive industry experience. We work with your bookkeeper or accounting department to streamline their workflows and accelerate internal financial processes. Our four implementation stages are rolled out as organization needs them, and allow you to select what topics and processes that will be covered. Through a series of half-day workshops, we guide the process of developing and implementing best practices-based processes, document-centric workflows and comprehensive electronic filing systems for your organization.</p>
+  <div class="col-md-12 text-center">
+    <div class="btn btn-primary">Learn More </div>
+  </div>
 </section>
 
-<!-- divivder --> <div class="container divider"></div>
+<!-- divivder --> <!-- <div class="container divider"></div> -->
 
-<section class="container text-center">
-  <h1>About Us</h1>
-    <p>QCDocs Systems Inc. delivers a comprehensive back-office management suite designed for small to mid-sized companies. Our team comes from a wide range of backgrounds and industry sectors. We combine our different areas of expertise to build the best solution for automating and streamlining business and accounting processes. Our web-based products work on a Software as a Service (SaaS) basis. This flexible approach makes our products easy to implement and affordable to small and mid-sized businesses, helping them quickly improve their core accounting and administrative processes so they can focus on building their businesses not their back offices.</p>
-  <h2 class="margin-top">Contact Us</h2>
-    <p class="contact-icon"><span class="fa fa-phone"></span> Telephone: 604.241.8400</p>
-    <p class="contact-icon"><span class="fa fa-phone"></span> Toll Free: 1.877.241.8444</p>
-    <p class="contact-icon"><span class="fa fa-envelope"></span> sales@qcdocs.com</p>
+<section class="text-center blurred-bg marginbot-none">
+  <div class="container">
+    <h1>About Us</h1>
+      <p>QCDocs Systems Inc. delivers a comprehensive back-office management suite designed for small to mid-sized companies. Our team comes from a wide range of backgrounds and industry sectors. We combine our different areas of expertise to build the best solution for automating and streamlining business and accounting processes. Our web-based products work on a Software as a Service (SaaS) basis. This flexible approach makes our products easy to implement and affordable to small and mid-sized businesses, helping them quickly improve their core accounting and administrative processes so they can focus on building their businesses not their back offices.</p>
+    <h2 class="margin-top">Contact Us</h2>
+      <p class="contact-icon"><span class="fa fa-phone"></span> Telephone: 604.241.8400</p>
+      <p class="contact-icon"><span class="fa fa-phone"></span> Toll Free: 1.877.241.8444</p>
+      <p class="contact-icon"><span class="fa fa-envelope"></span> sales@qcdocs.com</p>
+  </div>
 </section>
 
 

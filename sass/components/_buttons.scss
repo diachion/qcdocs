@@ -11,13 +11,36 @@
   background: rgba(255,255,255,0.25);
   color: #fff;
   font-size: 1.3em;
-  border-radius: 0;
   border: 2px solid #fff;
   margin: 1.5em 0.2em;
   padding: 1em;
   @include trans(all 0.3s linear);
   &:hover {
     background: rgba(0,0,0,0.25);
+    color: #fff;
+  }
+}
+
+.btn {
+  border-radius: 0;
+  &:active, &:focus {
+    box-shadow: none;
+    // border: inherit !important;
+    // background: inherit !important;
+  }
+}
+
+.btn-primary {
+  color: $medblue;
+  background: #fff;
+  font-size: 1.3em;
+  border: 2px solid $medblue;
+  padding: 0.5em 2em;
+  margin-top: 5em;
+  @include trans(all 0.3s linear);
+  &:hover, &:active, &:focus {
+    background: $medblue !important;
+    border: 2px solid $medblue !important;
     color: #fff;
   }
 }

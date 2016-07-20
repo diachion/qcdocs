@@ -2,7 +2,7 @@
         FOOTER
 =============================================== -->
 <footer class="text-center">
-  <span>Copyright &copy; 2016 QCDocs</span>
+  <span>Copyright &copy; 2016 QCDocs Systems Inc.</span>
 </footer>
 
 
