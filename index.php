@@ -9,7 +9,11 @@
         HEADER IMAGE
 =============================================== -->
 <header>
-  <div class="splash-img"></div>
+  <!-- <div class="splash-img"></div> -->
+  <video class="vid-header" autoplay loop poster="imgs/typing.jpg">
+    <source src="imgs/typing.webm" type="video/webm">
+    <source src="imgs/typing.mp4" type="video/mp4">
+  </video>
   <div class="header-info">
     <img src="imgs/qcdocslogo.svg" alt="QCDocs logo">
     <h1 class="dropshadow">The Dawn of Better Business is Right Around the Corner</h1>

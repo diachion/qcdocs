@@ -298,7 +298,7 @@ section {
     HEADER
 \*------------------------------------*/
 .splash-img {
-  background-image: url("../imgs/Typing-numbers.jpg");
+  background-image: url("../imgs/typing.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 50%;
@@ -307,6 +307,17 @@ section {
   top: 0;
   left: 0;
   right: 0;
+  z-index: -999; }
+
+.vid-header {
+  background-size: cover;
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  left: 0;
+  bottom: 0;
   z-index: -999; }
 
 .header-info {
