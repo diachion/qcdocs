@@ -1,11 +1,14 @@
 /*------------------------------------*\
     CONTENT
 \*------------------------------------*/
-.list > li {
-  list-style-type: none;
-  line-height: 2em;
-  .fa {
-    padding-right: 10px;
+.list {
+  padding-left: 30px;
+  > li {
+    list-style-type: none;
+    line-height: 2em;
+    .fa {
+      padding-right: 10px;
+    }
   }
 }
 

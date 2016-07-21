@@ -11,7 +11,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.php">Home</a></li>
         <li><a href="services.php">Services</a></li>
-        <li><a href="#">Solutions</a></li>
+        <li><a href="solutions.php">Solutions</a></li>
         <li><a href="#">Implementation</a></li>
         <li><a href="#">Contact</a></li>
         <li><a class="login" href="#">Login</a></li>
