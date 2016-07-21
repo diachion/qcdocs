@@ -1,7 +1,7 @@
 <!-- ==========================================
         NAVIGATION BAR 
 =============================================== -->
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
   <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand" href="index.php"><img src="imgs/qcdocslogo.svg"></a>
@@ -13,7 +13,7 @@
         <li><a href="#">Solutions</a></li>
         <li><a href="#">Implementation</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#">Login</a></li>
+        <li><a class="login" href="#">Login</a></li>
       </ul>
     </div>
   </div> <!-- container -->

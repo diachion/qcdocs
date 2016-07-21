@@ -21,7 +21,7 @@
   </div>
 
   <div class="arrows">
-    <a class="downarrow" href="#">
+    <a class="downarrow" href="#start">
       <span class="fa fa-angle-down"></span>
     </a>
   </div>
@@ -30,6 +30,8 @@
 <!-- ==========================================
         BODY CONTENT
 =============================================== -->
+
+<div id="start"></div>
 
 <section class="container text-center">
   <h1>QCDocs = "The Small Business ERP"</h1>
@@ -85,7 +87,7 @@
   </div>
 
   <div class="col-md-12 text-center">
-    <div class="btn btn-primary">Learn More </div>
+    <div class="btn btn-primary">Learn More <span class="fa fa-angle-right"></span></div>
   </div>
 </section>
 
@@ -103,7 +105,7 @@
         <li><span class="fa fa-caret-right"></span> Bookkeeping & Accounting Practices</li>
       </ul>
     <div class="col-md-12 text-center">
-      <div class="btn btn-primary">Learn More </div>
+      <div class="btn btn-info">Learn More <span class="fa fa-angle-right"></div>
     </div>
   </div> <!-- container -->
 </section>
@@ -114,7 +116,7 @@
   <h1>Implementations</h1>
     <p>QCDocs implementation and training are provided by professional accountants with extensive industry experience. We work with your bookkeeper or accounting department to streamline their workflows and accelerate internal financial processes. Our four implementation stages are rolled out as organization needs them, and allow you to select what topics and processes that will be covered. Through a series of half-day workshops, we guide the process of developing and implementing best practices-based processes, document-centric workflows and comprehensive electronic filing systems for your organization.</p>
   <div class="col-md-12 text-center">
-    <div class="btn btn-primary">Learn More </div>
+    <div class="btn btn-primary">Learn More <span class="fa fa-angle-right"></div>
   </div>
 </section>
 

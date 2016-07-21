@@ -25,8 +25,9 @@
   border-radius: 0;
   &:active, &:focus {
     box-shadow: none;
-    // border: inherit !important;
-    // background: inherit !important;
+  }
+  .fa {
+    padding-left: 10px;
   }
 }
 
@@ -36,11 +37,26 @@
   font-size: 1.3em;
   border: 2px solid $medblue;
   padding: 0.5em 2em;
-  margin-top: 5em;
+  margin-top: 3em;
   @include trans(all 0.3s linear);
   &:hover, &:active, &:focus {
     background: $medblue !important;
     border: 2px solid $medblue !important;
+    color: #fff;
+  }
+}
+
+.btn-info {
+  color: #fff;
+  background: rgba(255,255,255,0.25);
+  font-size: 1.3em;
+  border: 2px solid #fff;
+  padding: 0.5em 2em;
+  margin-top: 3em;
+  @include trans(all 0.3s linear);
+  &:hover, &:active, &:focus {
+    background: rgba(0,0,0,0.25) !important;
+    border: 2px solid #fff !important;
     color: #fff;
   }
 }
