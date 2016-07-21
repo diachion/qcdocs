@@ -7,12 +7,29 @@
     });
 
 // ------------ navbar changing --------------
-$(window).scroll(function(){
-  if( $(window).scrollTop() > $("header").height() ){
-    $(".navbar").addClass("navbar-default");
-    $(".navbar").removeClass("navbar-inverse");
-  } else {
-    $(".navbar").removeClass("navbar-default");
-    $(".navbar").addClass("navbar-inverse");
-  }
-});
+if($("body").hasClass("index")){
+  $(window).scroll(function(){
+    if( $(window).scrollTop() > $("header").height() ){
+      $(".navbar").addClass("navbar-default");
+      $(".navbar").removeClass("navbar-inverse");
+    } else {
+      $(".navbar").removeClass("navbar-default");
+      $(".navbar").addClass("navbar-inverse");
+    }
+  });
+} else {
+  $(".navbar").addClass("navbar-default");
+  $(".navbar").removeClass("navbar-inverse");
+}
+
+
+// $(window).scroll(function(){
+//   if( $(window).scrollTop() > $("header").height() ){
+//     $(".navbar").addClass("navbar-default");
+//     $(".navbar").removeClass("navbar-inverse");
+//   } else {
+//     $(".navbar").removeClass("navbar-default");
+//     $(".navbar").addClass("navbar-inverse");
+//   }
+// });
+

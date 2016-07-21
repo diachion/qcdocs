@@ -1,4 +1,7 @@
-<?php include ("header.php") ?>
+<?php 
+$pageName = "index";
+include ("header.php");
+?>
 
 <!-- ==========================================
         NAVIGATION BAR 
@@ -38,7 +41,7 @@
 <div id="start"></div>
 
 <section class="container text-center">
-  <h1>QCDocs = "The Small Business ERP"</h1>
+  <h1>QCDocs, "The Small Business ERP"</h1>
     <p>Enterprise Resource Planning (ERP) suites have become a primary tool for large businesses, letting them scale operations while managing overhead and streamlining their business processes. These tools reduce costs through integration – allowing key business processes such as accounting, purchasing, inventory control, time management, and HR to work together smoothly. QCDocs offers this functionality for small to mid-sized businesses using QuickBooksTM and Simply AccountingTM, without the cost or complexity of traditional ERP systems.</p>
     <p>QCDocs, the Small Business ERP, revolutionizes how small businesses manage standard business practices including accounting, purchasing, sales orders, billing, inventory, time and vacation tracking, and much more. It uses an online, document-centric approach to streamline and standardize these processes, from initiation to approval. This secure, hosted solution is accessible from anywhere with an Internet connection, requires no internal IT support, and delivers the tools your company needs to manage overhead and grow for a fraction of the cost of ERP systems.</p>
 </section>

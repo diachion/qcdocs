@@ -9,7 +9,8 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Services</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="services.php">Services</a></li>
         <li><a href="#">Solutions</a></li>
         <li><a href="#">Implementation</a></li>
         <li><a href="#">Contact</a></li>

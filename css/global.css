@@ -88,6 +88,9 @@ body {
 p, li {
   font-size: 1.3em; }
 
+p {
+  line-height: 2em; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif; }
 
@@ -248,7 +251,8 @@ section {
 .navbar-default {
   position: fixed;
   border: 0;
-  background-color: #2F4858; }
+  background-color: #2F4858;
+  top: 0; }
   .navbar-default .navbar-brand img {
     width: 100%;
     max-width: 140px;
@@ -309,16 +313,9 @@ section {
   right: 0;
   z-index: -999; }
 
-.vid-header {
-  background-size: cover;
-  position: relative;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  left: 0;
-  bottom: 0;
-  z-index: -999; }
+header {
+  height: 100vh;
+  overflow: hidden; }
 
 .header-info {
   color: #fff;
@@ -327,7 +324,9 @@ section {
   top: 50%;
   right: 0;
   left: 0;
-  margin: 0 20em;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   transform: translateY(-50%); }
@@ -396,6 +395,9 @@ section {
 
 .marginbot-none {
   margin-bottom: 0; }
+
+.col-md-6 {
+  padding: 0 3em; }
 
 /*------------------------------------*\
     SIDEBAR
