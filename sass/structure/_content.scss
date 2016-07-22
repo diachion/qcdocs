@@ -44,3 +44,41 @@
 .col-md-6 {
   padding: 0 3em;
 }
+
+.vertical-line {
+  background: $darkblue;
+  width: 10px;
+  height: 100px;
+}
+
+.flexy {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.timeline-circle {
+  background: $darkblue;
+  color: #fff;
+  font-size: 3em;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -20px;
+  padding: 27px 0;
+}
+
+.timeline {
+  color: #fff;
+  font-size: 2em;
+  background: $darkgreen;
+  width: 100%;
+  padding: 20px 0;
+  border-radius: 50px;
+}
+
+.timeline-p {
+  padding-left: 100px;
+  margin-bottom: 5em;
+}
