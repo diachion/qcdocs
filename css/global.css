@@ -255,6 +255,7 @@ section {
   position: fixed;
   border: 0;
   background-color: #2F4858;
+  box-shadow: 0 1px 5px #888888;
   top: 0; }
   .navbar-default .navbar-brand img {
     width: 100%;
@@ -404,38 +405,49 @@ header {
 .col-md-6 {
   padding: 0 3em; }
 
-.vertical-line {
-  background: #2F4858;
-  width: 10px;
-  height: 100px; }
-
-.flexy {
-  display: flex;
-  align-items: center;
-  position: relative; }
-
-.timeline-circle {
-  background: #2F4858;
-  color: #fff;
-  font-size: 3em;
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  position: absolute;
-  top: -20px;
-  padding: 27px 0; }
-
 .timeline {
-  color: #fff;
-  font-size: 2em;
-  background: #7CCC6F;
-  width: 100%;
-  padding: 20px 0;
-  border-radius: 50px; }
-
-.timeline-p {
-  padding-left: 100px;
-  margin-bottom: 5em; }
+  position: relative;
+  list-style-type: none;
+  margin-top: 8em; }
+  .timeline::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 100%;
+    left: 0;
+    background: #2F4858; }
+  .timeline .timeline-title {
+    position: relative;
+    background: #7CCC6F;
+    color: #fff;
+    padding: 15px 0;
+    border-radius: 40px;
+    left: -30px;
+    text-align: left;
+    padding-left: 60px; }
+    .timeline .timeline-title::before {
+      position: absolute;
+      content: "";
+      display: block;
+      width: 100px;
+      height: 100px;
+      background: #2F4858;
+      border-radius: 50%;
+      left: -55px;
+      top: -23px; }
+  .timeline .timeline-desc {
+    font-size: 1em;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    text-align: left;
+    padding-left: 60px; }
+  .timeline .timeline-last .timeline-title {
+    background: none; }
+    .timeline .timeline-last .timeline-title::before {
+      width: 30px;
+      height: 30px;
+      left: -20px;
+      top: 5px; }
 
 /*------------------------------------*\
     SIDEBAR
@@ -447,6 +459,9 @@ footer {
   background: #2F4858;
   color: #fff;
   width: 100%;
-  padding: 2em 0; }
+  padding: 2em 0;
+  border-top: 3px solid #7CCC6F; }
+  footer span {
+    font-size: 1em; }
 
 /*# sourceMappingURL=global.css.map */

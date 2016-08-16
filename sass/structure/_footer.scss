@@ -2,8 +2,12 @@
     FOOTER
 \*------------------------------------*/
 footer {
-  background: #2F4858;
+  background: $darkblue;
   color: #fff;
   width: 100%;
   padding: 2em 0;
+  border-top: 3px solid $darkgreen;
+  span {
+    font-size: 1em;
+  }
 }

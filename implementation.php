@@ -13,7 +13,49 @@ include ("header.php");
         BODY CONTENT
 =============================================== -->
 <section class="container text-center">
+
   <h1>Fast Affordable Best Practice Implementation</h1>
+    <p>QCDocs implementation and training are provided by professional accountants with extensive industry experience. We work with your bookkeeper or accounting department to streamline their workflows and accelerate internal financial processes. Our four implementation stages are rolled out as organization needs them, and allow you to select what topics and processes that will be covered. Through a series of half-day workshops, we guide the process of developing and implementing best practices-based processes, document-centric workflows and comprehensive electronic filing systems for your organization.</p>
+
+  <ul class="timeline">
+    <li>
+      <div class="timeline-box">
+        <h3 class="timeline-title"><!-- <div class="timeline-num">I</div> --> Phase I: Basic Back Office Filing & Bookkeeping</h3>
+        <p class="timeline-desc">QCDocs Desktop is deployed so your bookkeeper can streamline back office document filing and improve controls for key processes such as purchasing, sales and cash management. QCDocs’ accounting specialists help clients understand their current processes, government incentive programs and how to use QCDocs to streamline important internal controls, automate approval and documentation processes and enable real time management oversight.</p>
+      </div>
+    </li>
+
+    <li>
+      <div class="timeline-box">
+        <h3 class="timeline-title"><!-- <div class="timeline-num">II</div> --> Phase II: Advanced Bookkeeping & Financial Close</h3>
+        <p class="timeline-desc">We return during financial close and work with your bookkeepers and accountants to use QCDocs to accelerate reporting and share best practices for bank reconciliations, inventory and fixed asset accounting, accruals and other potential troublesome close processes such as revenue recognition or stock based compensation. We train users on effective use of the dashboard reporting tools and how to streamline financial audit, GST, SR&ED and other compliance processes using QCDocs.</p>
+      </div>
+    </li>
+
+    <li>
+      <div class="timeline-box">
+        <h3 class="timeline-title"><!-- <div class="timeline-num2">III</div> --> Phase III: Management Policy & Internal Control Selection</h3>
+        <p class="timeline-desc">We share best practices for optimizing company purchasing processes, employee expense reporting, payroll systems and Human Resources. Decisions are made with management and added to QCDocs template policies that are loaded into your system for company wide availability. At the same time, we work with management to better understand problem areas and oppurtunities to improve applicable processes.</p>
+      </div>
+    </li>
+
+    <li>
+      <div class="timeline-box">
+        <h3 class="timeline-title"><!-- <div class="timeline-num2">IV</div> --> Phase IV: Company-wide Control Rollout & Training</h3>
+        <p class="timeline-desc">Our training programs bring your workforce together to discuss key processes, controls, and how to use the system to optimize these requirements. We focus on ensuring that your workforce understands the reasons for key internal controls and explain the benefits of incentive programs that require your workforce to properly document activities to ensure compliance.</p>
+      </div>
+    </li>
+
+    <li class="timeline-last">
+      <div class="timeline-box">
+        <h3 class="timeline-title"></h3>
+      </div>
+    </li>
+
+  </ul>
+
+
+<!--   <h1>Fast Affordable Best Practice Implementation</h1>
   <p>QCDocs implementation and training are provided by professional accountants with extensive industry experience. We work with your bookkeeper or accounting department to streamline their workflows and accelerate internal financial processes. Our four implementation stages are rolled out as organization needs them, and allow you to select what topics and processes that will be covered. Through a series of half-day workshops, we guide the process of developing and implementing best practices-based processes, document-centric workflows and comprehensive electronic filing systems for your organization.</p>
 
   <div class="flexy">
@@ -38,7 +80,7 @@ include ("header.php");
     <div class="timeline-circle">IV</div>
     <div class="timeline">Phase IV: Company-wide Control Rollout & Training</div>
   </div>
-    <p class="text-left timeline-p">Our training programs bring your workforce together to discuss key processes, controls, and how to use the system to optimize these requirements. We focus on ensuring that your workforce understands the reasons for key internal controls and explain the benefits of incentive programs that require your workforce to properly document activities to ensure compliance.</p>
+    <p class="text-left timeline-p">Our training programs bring your workforce together to discuss key processes, controls, and how to use the system to optimize these requirements. We focus on ensuring that your workforce understands the reasons for key internal controls and explain the benefits of incentive programs that require your workforce to properly document activities to ensure compliance.</p> -->
 </section>
 
 
