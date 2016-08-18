@@ -15,6 +15,23 @@ include ("header.php");
   <h1>Contact Us</h1>
 </section>
 
+<section class="container text-center">
+  <div class="col-md-4">
+    <h3>twitter</h3>
+    <a class="btn btn-contact" href="https://twitter.com/qcdocs" target="new"><span class="fa fa-twitter"></span> @qcdocs</a>
+  </div>
+  <div class="col-md-4">
+    <h3>email</h3>
+    <a class="btn btn-contact" href="mailto:sales@qcdocs.com" target="new"><span class="fa fa-envelope"></span> sales@qcdocs.com</a>
+  </div>
+  <div class="col-md-4">
+    <h3>telephone</h3>
+    <a class="btn btn-contact" href="tel:+18772418444" target="new"><span class="fa fa-phone"></span> 1-877-241-8444</a>
+  </div>
+</section>
+
+<!-- divivder --> <div class="container divider"></div>
+
 <section class="container">
 
   <form>

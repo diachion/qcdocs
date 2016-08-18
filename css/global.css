@@ -190,6 +190,21 @@ h2, h3, h4 {
     border: 2px solid #fff !important;
     color: #fff; }
 
+.btn-contact {
+  background: #fff;
+  color: #336699;
+  font-size: 1.3em;
+  padding: 1.5em 2em;
+  margin-top: 1.5em;
+  box-shadow: 0px 0px 1px rgba(204, 204, 204, 0.8);
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear; }
+  .btn-contact:hover {
+    color: #7CCC6F;
+    transform: translateY(-3px);
+    box-shadow: -1px 4px 7px rgba(204, 204, 204, 0.8); }
+
 /*------------------------------------*\
     Cards
 \*------------------------------------*/
@@ -222,7 +237,10 @@ form {
     transition: all 0.3s linear;
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear; }
+    form input:hover, form textarea:hover {
+      background: #fff; }
     form input:focus, form textarea:focus {
+      background: #fff;
       border: 2px solid #86BBD8; }
   form #submit {
     float: right; }

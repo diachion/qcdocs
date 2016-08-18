@@ -28,8 +28,11 @@ form {
     border-left: 2px solid transparent;
     border-bottom: 2px solid $medblue;
     @include trans(all 0.3s linear);
+    &:hover {
+      background: #fff;
+    }
     &:focus {
-      //background: #e5f9e6;
+      background: #fff;
       border: 2px solid $lightblue;
     }
   }
