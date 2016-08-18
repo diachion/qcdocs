@@ -19,7 +19,7 @@ include ("header.php");
 <section class="container text-center">
   <h2>Startup Companies</h2>
   <div class="col-md-4 margin-top">
-    <img src="imgs/placeholder.png">
+    <img class="solutions-img" src="imgs/startup.jpg">
   </div>
   <div class="col-md-4 text-left margin-top">
     <span><strong>Key Challenges</strong></span>
@@ -46,7 +46,7 @@ include ("header.php");
 <section class="container text-center">
   <h2>Technology & Biotecth Companies</h2>
   <div class="col-md-4 margin-top">
-    <img src="imgs/placeholder.png">
+    <img class="solutions-img" src="imgs/technology.jpg">
   </div>
   <div class="col-md-4 text-left margin-top">
     <span><strong>Key Challenges</strong></span>
@@ -71,7 +71,7 @@ include ("header.php");
 <section class="container text-center">
   <h2>Services & Manufacturing Companies</h2>
   <div class="col-md-4 margin-top">
-    <img src="imgs/placeholder.png">
+    <img class="solutions-img" src="imgs/servicemanufacturing.jpg">
   </div>
   <div class="col-md-4 text-left margin-top">
     <span><strong>Key Challenges</strong></span>
@@ -99,7 +99,7 @@ include ("header.php");
 <section class="container text-center">
   <h2>Junior Resource & Venture Listed Public Companies</h2>
   <div class="col-md-4 margin-top">
-    <img src="imgs/placeholder.png">
+    <img class="solutions-img" src="imgs/resourceventure.jpg">
   </div>
   <div class="col-md-4 text-left margin-top">
     <span><strong>Key Challenges</strong></span>
@@ -127,7 +127,7 @@ include ("header.php");
   <h2>Bookkeeping and Accounting Practices</h2>
   <p>QCDocs, the "Bookkeeper’s ERP", was originally developed to support remote bookkeeping practices. It evolved into a comprehensive accounting and backoffice management solution. With QCDocs, bookkeepers have the ability to expand their client base and revolutionize the quality and capabilities of their existing practices.</p>
   <div class="col-md-4 margin-top">
-    <img src="imgs/placeholder.png">
+    <img class="solutions-img" src="imgs/bookaccounting.jpg">
   </div>
   <div class="col-md-4 text-left margin-top">
     <span><strong>Key Challenges</strong></span>

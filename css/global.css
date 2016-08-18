@@ -332,7 +332,7 @@ section {
   border: 0;
   background-color: transparent; }
   .navbar-inverse .nav > li:last-child > a {
-    border: 2px solid #000;
+    border: 2px solid #fff;
     padding: 5px 15px;
     margin-top: 8px;
     margin-left: 10px;
@@ -345,7 +345,8 @@ section {
   .navbar-inverse .navbar-nav > li {
     font-size: inherit; }
     .navbar-inverse .navbar-nav > li > a {
-      color: #000; }
+      color: #fff;
+      text-shadow: 1px 1px 1px #000; }
       .navbar-inverse .navbar-nav > li > a:hover {
         color: #7CCC6F; }
       .navbar-inverse .navbar-nav > li > a:focus {
@@ -443,6 +444,9 @@ body {
   font-size: 1.2em;
   margin-top: 1em;
   margin-bottom: 3em; }
+
+.solutions-img {
+  width: 100%; }
 
 .blurred-bg {
   background-image: url("../imgs/blurred-bg.jpg");
