@@ -34,7 +34,7 @@ include ("header.php");
 
 <section class="container">
 
-  <form>
+  <form method="post" action="formsubmit.php">
     <label for="name">Name</label>
       <input id="name" type="text" name="name" placeholder="ex. john doe" required/>
     <label for="email">Email Address</label>
