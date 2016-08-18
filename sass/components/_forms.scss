@@ -1,8 +1,39 @@
 /*------------------------------------*\
     Forms
 \*------------------------------------*/
-/* 
-	 
-
-	 
-*/
+form {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  label, input, textarea {
+    display: block;
+    width: 100%;
+    &:focus {
+      outline: none;
+    }
+  }
+  label {
+    color: $darkgreen;
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  input, textarea {
+    background: transparent;
+    color: $darkblue;
+    font-size: 1.1em;
+    padding: 1em;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-bottom: 2px solid $medblue;
+    @include trans(all 0.3s linear);
+    &:focus {
+      //background: #e5f9e6;
+      border: 2px solid $lightblue;
+    }
+  }
+  #submit {
+    float: right;
+  }
+}

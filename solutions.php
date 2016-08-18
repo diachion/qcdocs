@@ -21,7 +21,7 @@ include ("header.php");
   <div class="col-md-4 margin-top">
     <img src="imgs/placeholder.png">
   </div>
-  <div class="col-md-8 text-left margin-top">
+  <div class="col-md-4 text-left margin-top">
     <span><strong>Key Challenges</strong></span>
       <ul class="list">
         <li><span class="fa fa-caret-right darkgreen"></span> Limited time to develop policies and procedures from scratch</li>
@@ -29,6 +29,8 @@ include ("header.php");
         <li><span class="fa fa-caret-right darkgreen"></span> Minimal resources and the need to minimize overhead costs</li>
         <li><span class="fa fa-caret-right darkgreen"></span> Need to focus on the core business, not the back office</li>
       </ul>
+  </div>
+  <div class="col-md-4 text-left margin-top">
     <span><strong>QCDocs Solutions</strong></span>
       <ul class="list">
         <li><span class="fa fa-check darkgreen"></span> Policies & guides for optimizing tax rules and labour standards</li>
@@ -46,13 +48,15 @@ include ("header.php");
   <div class="col-md-4 margin-top">
     <img src="imgs/placeholder.png">
   </div>
-  <div class="col-md-8 text-left margin-top">
+  <div class="col-md-4 text-left margin-top">
     <span><strong>Key Challenges</strong></span>
       <ul class="list">
         <li><span class="fa fa-caret-right darkgreen"></span> Optimizing SR&ED and Government Contribution opportunities</li>
         <li><span class="fa fa-caret-right darkgreen"></span> Cash management and management/board oversight</li>
         <li><span class="fa fa-caret-right darkgreen"></span> Rapid deployment of processes often to remote users</li>
       </ul>
+  </div>
+  <div class="col-md-4 text-left margin-top">
     <span><strong>QCDocs Solutions</strong></span>
       <ul class="list">
         <li><span class="fa fa-check darkgreen"></span> Fast, simple time tracking implemented by specialists to keep you aware of opportunities and pitfalls</li>
@@ -69,7 +73,7 @@ include ("header.php");
   <div class="col-md-4 margin-top">
     <img src="imgs/placeholder.png">
   </div>
-  <div class="col-md-8 text-left margin-top">
+  <div class="col-md-4 text-left margin-top">
     <span><strong>Key Challenges</strong></span>
       <ul class="list">
         <li><span class="fa fa-caret-right darkgreen"></span> Remote time tracking for client billing and payroll</li>
@@ -77,6 +81,8 @@ include ("header.php");
         <li><span class="fa fa-caret-right darkgreen"></span> Fast billings and aggregation of reimbursed expenses and time sheets into PDF</li>
         <li><span class="fa fa-caret-right darkgreen"></span> Purchase order and inventory management challenges</li>
       </ul>
+  </div>
+  <div class="col-md-4 text-left margin-top">
     <span><strong>QCDocs Solutions</strong></span>
       <ul class="list">
         <li><span class="fa fa-check darkgreen"></span> Fast, simple time tracking for real time billing and payroll management</li>
@@ -95,7 +101,7 @@ include ("header.php");
   <div class="col-md-4 margin-top">
     <img src="imgs/placeholder.png">
   </div>
-  <div class="col-md-8 text-left margin-top">
+  <div class="col-md-4 text-left margin-top">
     <span><strong>Key Challenges</strong></span>
       <ul class="list">
         <li><span class="fa fa-caret-right darkgreen"></span> Cost effective bookkeeping and financial audit</li>
@@ -103,6 +109,8 @@ include ("header.php");
         <li><span class="fa fa-caret-right darkgreen"></span> Fast financial reporting</li>
         <li><span class="fa fa-caret-right darkgreen"></span> Effective distributed purchase order , property costing and expense report management and approvals</li>
       </ul>
+  </div>
+  <div class="col-md-4 text-left margin-top">
     <span><strong>QCDocs Solutions</strong></span>
       <ul class="list">
         <li><span class="fa fa-check darkgreen"></span> Instant access to all source documents through a simple web-based interface</li>
@@ -121,7 +129,7 @@ include ("header.php");
   <div class="col-md-4 margin-top">
     <img src="imgs/placeholder.png">
   </div>
-  <div class="col-md-8 text-left margin-top">
+  <div class="col-md-4 text-left margin-top">
     <span><strong>Key Challenges</strong></span>
       <ul class="list">
         <li><span class="fa fa-caret-right darkgreen"></span> Managing multiple client files and keeping track of documents</li>
@@ -129,6 +137,8 @@ include ("header.php");
         <li><span class="fa fa-caret-right darkgreen"></span> Real time client reporting</li>
         <li><span class="fa fa-caret-right darkgreen"></span> Maintaining good ongoing communications with Owner/Management and staff</li>
       </ul>
+  </div>
+  <div class="col-md-4 text-left margin-top">
     <span><strong>QCDocs Solutions</strong></span>
       <ul class="list">
         <li><span class="fa fa-check darkgreen"></span> Seamlessly switch between different clients and access every document in seconds</li>

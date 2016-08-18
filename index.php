@@ -22,9 +22,9 @@ include ("header.php");
     <h1 class="dropshadow">The Dawn of Better Business is Right Around the Corner</h1>
     <h3 class="dropshadow">A new paradigm in business document processing, control and cloud accounting is launching soon!</h3>
     <h2 class="revolution dropshadow">Join the Revolution!</h2>
-      <div class="btn btn-header"><span class="fa fa-twitter"></span> @qcdocs</div>
-      <div class="btn btn-header"><span class="fa fa-envelope"></span> sales@qcdocs.com</div>
-      <div class="btn btn-header"><span class="fa fa-phone"></span> 1-877-241-8444</div>
+      <a class="btn btn-header" href="https://twitter.com/qcdocs" target="new"><span class="fa fa-twitter"></span> @qcdocs</a>
+      <a class="btn btn-header" href="mailto:sales@qcdocs.com" target="new"><span class="fa fa-envelope"></span> sales@qcdocs.com</a>
+      <a class="btn btn-header" href="tel:+18772418444" target="new"><span class="fa fa-phone"></span> 1-877-241-8444</a>
   </div>
 
   <div class="arrows">
@@ -73,28 +73,28 @@ include ("header.php");
 
   <div class="col-md-3 text-right services">
     <div class="blue-line"></div>
-    <h4>Quick, practical policies & internal control</h4>
+    <h3>Quick, practical policies & internal control</h3>
       <p>Out of the box, QCDocs offers companies a complete set of standardized accounting and HR policies and forms for purchasing, expense reporting, time and vacation tracking, and more.</p>
     <div class="blue-line"></div>
-    <h4>No more missing documents</h4>
+    <h3>No more missing documents</h3>
       <p>Using QCDocs’ simple document capture technologies, your company develops a fully electronic warehouse for its back office accounting, HR, and legal documents.</p>
   </div>
 
   <div class="col-md-6">
-    <img src="imgs/placeholder.png"> <img src="imgs/placeholder.png">
+    <img src="imgs/placeholder2.png"> <img src="imgs/placeholder2.png">
   </div>
 
   <div class="col-md-3 text-left services">
     <div class="blue-line"></div>
-    <h4>Your online processes & communications portal</h4>
+    <h3>Your online processes & communications portal</h3>
       <p>The QCDocs Web Portal provides a central process and communications hub for your company.</p>
     <div class="blue-line"></div>
-    <h4>Use existing accounting software</h4>
+    <h3>Use existing accounting software</h3>
       <p>QCDocs synchronizes to your existing accounting applications to standardize document naming, streamline bookkeeping entry processes, and enable dashboard reporting via the web.</p>
   </div>
 
   <div class="col-md-12 text-center">
-    <div class="btn btn-primary">Learn More <span class="fa fa-angle-right"></span></div>
+    <a class="btn btn-primary" href="services.php">Learn More <span class="fa fa-angle-right"></span></a>
   </div>
 </section>
 
@@ -112,7 +112,7 @@ include ("header.php");
         <li><span class="fa fa-caret-right"></span> Bookkeeping & Accounting Practices</li>
       </ul>
     <div class="col-md-12 text-center">
-      <div class="btn btn-info">Learn More <span class="fa fa-angle-right"></div>
+      <a class="btn btn-info" href="solutions.php">Learn More <span class="fa fa-angle-right"></a>
     </div>
   </div> <!-- container -->
 </section>
@@ -123,7 +123,7 @@ include ("header.php");
   <h1>Implementations</h1>
     <p>QCDocs implementation and training are provided by professional accountants with extensive industry experience. We work with your bookkeeper or accounting department to streamline their workflows and accelerate internal financial processes. Our four implementation stages are rolled out as organization needs them, and allow you to select what topics and processes that will be covered. Through a series of half-day workshops, we guide the process of developing and implementing best practices-based processes, document-centric workflows and comprehensive electronic filing systems for your organization.</p>
   <div class="col-md-12 text-center">
-    <div class="btn btn-primary">Learn More <span class="fa fa-angle-right"></div>
+    <a class="btn btn-primary" href="implementation.php">Learn More <span class="fa fa-angle-right"></a>
   </div>
 </section>
 

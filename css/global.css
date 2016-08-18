@@ -196,11 +196,37 @@ h2, h3, h4 {
 /*------------------------------------*\
     Forms
 \*------------------------------------*/
-/* 
-	 
+form {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto; }
+  form label, form input, form textarea {
+    display: block;
+    width: 100%; }
+    form label:focus, form input:focus, form textarea:focus {
+      outline: none; }
+  form label {
+    color: #7CCC6F;
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 0.5em; }
+  form input, form textarea {
+    background: transparent;
+    color: #2F4858;
+    font-size: 1.1em;
+    padding: 1em;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-bottom: 2px solid #336699;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear; }
+    form input:focus, form textarea:focus {
+      border: 2px solid #86BBD8; }
+  form #submit {
+    float: right; }
 
-	 
-*/
 /*------------------------------------*\
     Modals
 \*------------------------------------*/
@@ -301,6 +327,8 @@ section {
       color: #000; }
       .navbar-inverse .navbar-nav > li > a:hover {
         color: #7CCC6F; }
+      .navbar-inverse .navbar-nav > li > a:focus {
+        color: #000; }
 
 /*------------------------------------*\
     HEADER
@@ -372,6 +400,9 @@ header {
 /*------------------------------------*\
     CONTENT
 \*------------------------------------*/
+body {
+  background: url(../imgs/white_wall_hash.png); }
+
 .list {
   padding-left: 30px; }
   .list > li {
@@ -403,7 +434,9 @@ header {
   margin-bottom: 0; }
 
 .col-md-6 {
-  padding: 0 3em; }
+  padding: 0 2em; }
+  .col-md-6 img {
+    width: 100%; }
 
 .timeline {
   position: relative;
@@ -425,10 +458,11 @@ header {
     left: -30px;
     text-align: left;
     padding-left: 60px; }
-    .timeline .timeline-title::before {
+    .timeline .timeline-title .timeline-num {
       position: absolute;
-      content: "";
       display: block;
+      text-align: center;
+      line-height: 100px;
       width: 100px;
       height: 100px;
       background: #2F4858;
@@ -444,8 +478,13 @@ header {
   .timeline .timeline-last .timeline-title {
     background: none; }
     .timeline .timeline-last .timeline-title::before {
+      content: "";
+      position: absolute;
+      display: block;
+      background: #2F4858;
       width: 30px;
       height: 30px;
+      border-radius: 50%;
       left: -20px;
       top: 5px; }
 

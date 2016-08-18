@@ -1,6 +1,10 @@
 /*------------------------------------*\
     CONTENT
 \*------------------------------------*/
+body {
+  background: url(../imgs/white_wall_hash.png);
+}
+
 .list {
   padding-left: 30px;
   > li {
@@ -42,7 +46,10 @@
 }
 
 .col-md-6 {
-  padding: 0 3em;
+  padding: 0 2em;
+  img {
+    width: 100%;
+  }
 }
 
 // -------- Timeline --------
@@ -106,10 +113,12 @@
     left: -30px;
     text-align: left;
     padding-left: 60px;
-    &::before {
+    .timeline-num {
       position: absolute;
-      content: "";
+      //content: "";
       display: block;
+      text-align: center;
+      line-height: 100px;
       width: 100px;
       height: 100px;
       background: $darkblue;
@@ -141,8 +150,13 @@
     .timeline-title {
       background: none;
       &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        background: $darkblue;
         width: 30px;
         height: 30px;
+        border-radius: 50%;
         left: -20px;
         top: 5px;
       }

@@ -20,28 +20,28 @@ include ("header.php");
   <ul class="timeline">
     <li>
       <div class="timeline-box">
-        <h3 class="timeline-title"><!-- <div class="timeline-num">I</div> --> Phase I: Basic Back Office Filing & Bookkeeping</h3>
+        <h3 class="timeline-title"><span class="timeline-num">I</span> Phase I: Basic Back Office Filing & Bookkeeping</h3>
         <p class="timeline-desc">QCDocs Desktop is deployed so your bookkeeper can streamline back office document filing and improve controls for key processes such as purchasing, sales and cash management. QCDocs’ accounting specialists help clients understand their current processes, government incentive programs and how to use QCDocs to streamline important internal controls, automate approval and documentation processes and enable real time management oversight.</p>
       </div>
     </li>
 
     <li>
       <div class="timeline-box">
-        <h3 class="timeline-title"><!-- <div class="timeline-num">II</div> --> Phase II: Advanced Bookkeeping & Financial Close</h3>
+        <h3 class="timeline-title"><span class="timeline-num">II</span> Phase II: Advanced Bookkeeping & Financial Close</h3>
         <p class="timeline-desc">We return during financial close and work with your bookkeepers and accountants to use QCDocs to accelerate reporting and share best practices for bank reconciliations, inventory and fixed asset accounting, accruals and other potential troublesome close processes such as revenue recognition or stock based compensation. We train users on effective use of the dashboard reporting tools and how to streamline financial audit, GST, SR&ED and other compliance processes using QCDocs.</p>
       </div>
     </li>
 
     <li>
       <div class="timeline-box">
-        <h3 class="timeline-title"><!-- <div class="timeline-num2">III</div> --> Phase III: Management Policy & Internal Control Selection</h3>
+        <h3 class="timeline-title"><span class="timeline-num">III</span> Phase III: Management Policy & Internal Control Selection</h3>
         <p class="timeline-desc">We share best practices for optimizing company purchasing processes, employee expense reporting, payroll systems and Human Resources. Decisions are made with management and added to QCDocs template policies that are loaded into your system for company wide availability. At the same time, we work with management to better understand problem areas and oppurtunities to improve applicable processes.</p>
       </div>
     </li>
 
     <li>
       <div class="timeline-box">
-        <h3 class="timeline-title"><!-- <div class="timeline-num2">IV</div> --> Phase IV: Company-wide Control Rollout & Training</h3>
+        <h3 class="timeline-title"><span class="timeline-num">IV</span> Phase IV: Company-wide Control Rollout & Training</h3>
         <p class="timeline-desc">Our training programs bring your workforce together to discuss key processes, controls, and how to use the system to optimize these requirements. We focus on ensuring that your workforce understands the reasons for key internal controls and explain the benefits of incentive programs that require your workforce to properly document activities to ensure compliance.</p>
       </div>
     </li>
