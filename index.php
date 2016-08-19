@@ -61,7 +61,7 @@ include ("header.php");
     </ul>
     <h2 class="margin-top">The QCDocs System Solution</h2>
       <p>Quality Control Document & Process Management System</p>
-      <img src="imgs/placeholder.png">
+      <img class="services-img" src="imgs/solution.png">
   </div>
 </section>
 
@@ -81,7 +81,7 @@ include ("header.php");
   </div>
 
   <div class="col-md-6">
-    <img src="imgs/placeholder2.png"> <img src="imgs/placeholder2.png">
+    <img class="services-img" src="imgs/services.jpg">
   </div>
 
   <div class="col-md-3 text-left services">

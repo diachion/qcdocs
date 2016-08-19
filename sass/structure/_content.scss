@@ -31,10 +31,29 @@ body {
     margin-top: 1em;
     margin-bottom: 3em;
   }
+  .col-md-6 {
+    padding: 2em 3em;
+  }
+  .iconz {
+    border: 2px solid $lightblue;
+    border-radius: 50%;
+    font-size: 2em;
+    color: $lightblue;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    line-height: 100px;
+  }
 }
 
 .solutions-img {
   width: 100%;
+}
+
+.services-img {
+  width: 100%;
+  max-width: 800px;
 }
 
 .blurred-bg {

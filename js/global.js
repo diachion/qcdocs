@@ -42,7 +42,6 @@ $(function () {
     $('.bs-callout-warning').toggleClass('hidden', ok);
   })
   .on('form:submit', function() {
-    $("#submit").addClass("processing");
     return true;
   });
 });
