@@ -19,7 +19,7 @@ include ("header.php");
 <section class="container text-center">
   <h2>Startup Companies</h2>
   <div class="col-md-4 margin-top">
-    <img class="solutions-img" src="imgs/startup.jpg">
+    <img class="solutions-img" src="imgs/startupv2.jpg">
   </div>
   <div class="col-md-4 text-left margin-top">
     <span><strong>Key Challenges</strong></span>

@@ -34,15 +34,27 @@ include ("header.php");
 
 <section class="container">
 
-  <form method="post" action="formsubmit.php">
-    <label for="name">Name</label>
-      <input id="name" type="text" name="name" placeholder="ex. john doe" required/>
-    <label for="email">Email Address</label>
-      <input id="email" type="text" name="email" placeholder="ex. john.doe@website.com" required/>
-    <label for="subject">Subject</label>
-      <input id="subject" type="text" name="subject" placeholder="ex. inquiry about services" required/>
-    <label for="message">Message</label>
-      <textarea id="message" rows="5" name="message" placeholder="ex. i would like to request more information about your services" required></textarea>
+  <form id="form" parsley-validate method="post" action="formsubmit.php">
+    <div class="form-wrap">
+      <label for="name">Name</label>
+        <input id="name" type="text" name="name" placeholder="ex. john doe" required/>
+    </div>
+
+    <div class="form-wrap">
+      <label for="email">Email Address</label>
+        <input id="email" type="email" name="email" placeholder="ex. john.doe@website.com" required/>
+    </div>
+
+    <div class="form-wrap">
+      <label for="subject">Subject</label>
+        <input id="subject" type="text" name="subject" placeholder="ex. inquiry about services" required/>
+    </div>
+
+    <div class="form-wrap">
+      <label for="message">Message</label>
+        <textarea id="message" rows="5" name="message" placeholder="ex. i would like to request more information about your services" required></textarea>
+    </div>
+
     <button id="submit" class="btn btn-primary" type="submit">Send Message <span class="fa fa-paper-plane"></span></button>
   </form>
 

@@ -33,3 +33,16 @@ if($("body").hasClass("index")){
 //   }
 // });
 
+
+// ------------ form validation --------------
+$(function () {
+  $('#form').parsley().on('field:validated', function() {
+     console.log("Validating");
+    var ok = $('.parsley-error').length === 0;
+    $('.bs-callout-warning').toggleClass('hidden', ok);
+  })
+  .on('form:submit', function() {
+    $("#submit").addClass("processing");
+    return true;
+  });
+});
