@@ -14,6 +14,7 @@ include ("header.php");
 =============================================== -->
 <section class="container text-center">
   <h1>Services We Provide</h1>
+  <div class="divider-blue"></div>
     <img class="margin-top services-img" src="imgs/services.jpg">
 </section>
 

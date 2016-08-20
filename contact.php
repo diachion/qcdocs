@@ -13,6 +13,7 @@ include ("header.php");
 =============================================== -->
 <section class="container text-center">
   <h1>Contact Us</h1>
+  <div class="divider-blue"></div>
 </section>
 
 <section class="container text-center">

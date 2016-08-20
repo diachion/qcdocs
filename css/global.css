@@ -98,7 +98,7 @@ section > h1 {
   color: #336699; }
 
 h1 {
-  font-size: 3.8em;
+  font-size: 3em;
   text-transform: uppercase; }
 
 h2, h3, h4 {
@@ -308,6 +308,18 @@ section {
 
 .divider {
   border-top: 1px solid #ccc; }
+
+.divider-blue {
+  background-color: #336699;
+  margin: 2.5em auto;
+  width: 100px;
+  height: 3px; }
+
+.divider-green {
+  background-color: #DAF7DC;
+  margin: 2.5em auto;
+  width: 100px;
+  height: 3px; }
 
 .blue-line {
   height: 8px;

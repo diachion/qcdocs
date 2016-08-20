@@ -21,6 +21,20 @@ section {
   border-top: 1px solid #ccc;
 }
 
+.divider-blue {
+  background-color: $medblue;
+  margin: 2.5em auto;
+  width: 100px;
+  height: 3px;
+}
+
+.divider-green {
+  background-color: $lightgreen;
+  margin: 2.5em auto;
+  width: 100px;
+  height: 3px;
+}
+
 .blue-line {
   height: 8px;
   background-color: #86BBD8;

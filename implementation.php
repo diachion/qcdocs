@@ -15,6 +15,7 @@ include ("header.php");
 <section class="container text-center">
 
   <h1>Fast Affordable Best Practice Implementation</h1>
+  <div class="divider-blue"></div>
     <p>QCDocs implementation and training are provided by professional accountants with extensive industry experience. We work with your bookkeeper or accounting department to streamline their workflows and accelerate internal financial processes. Our four implementation stages are rolled out as organization needs them, and allow you to select what topics and processes that will be covered. Through a series of half-day workshops, we guide the process of developing and implementing best practices-based processes, document-centric workflows and comprehensive electronic filing systems for your organization.</p>
 
   <ul class="timeline">
@@ -88,6 +89,7 @@ include ("header.php");
 
 <section class="container text-center">
   <h1>Effective Return on Investment</h1>
+  <div class="divider-blue"></div>
   <p>Unlike other comparable products, QCDocs achieves effective Return on Investment in hours or days. It does this through a dramatic reduction in back office and accounting costs, leveraging existing accounting applications, and its hosted, Software as a Service model.</p>
   <p>QCDocs empowers your accounting and bookkeeping staff through its electronic, document-centric approach and distributed processes and workflows. It doesn’t require its customers to conduct a costly accounting system migration; instead it extends value of the most prevalent off-the-shelf accounting applications, including QuickBooks & Simply Accounting.</p>
   <p>With its hosted, Software as a Service model, QCDocs has virtually no dependence on internal IT systems. There is no need for additional servers, infrastructure or support. QCDocs only requires an Internet connection. This model also removes any up-front software costs in favor of a one-time implementation fee and a predictable monthly fee starting at $25 per month.</p>

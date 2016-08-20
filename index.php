@@ -42,6 +42,7 @@ include ("header.php");
 
 <section class="container text-center">
   <h1>QCDocs, "The Small Business ERP"</h1>
+  <div class="divider-blue"></div>
     <p>Enterprise Resource Planning (ERP) suites have become a primary tool for large businesses, letting them scale operations while managing overhead and streamlining their business processes. These tools reduce costs through integration – allowing key business processes such as accounting, purchasing, inventory control, time management, and HR to work together smoothly. QCDocs offers this functionality for small to mid-sized businesses using QuickBooksTM and Simply AccountingTM, without the cost or complexity of traditional ERP systems.</p>
     <p>QCDocs, the Small Business ERP, revolutionizes how small businesses manage standard business practices including accounting, purchasing, sales orders, billing, inventory, time and vacation tracking, and much more. It uses an online, document-centric approach to streamline and standardize these processes, from initiation to approval. This secure, hosted solution is accessible from anywhere with an Internet connection, requires no internal IT support, and delivers the tools your company needs to manage overhead and grow for a fraction of the cost of ERP systems.</p>
 </section>
@@ -51,6 +52,7 @@ include ("header.php");
 <section class="text-center blurred-bg">
   <div class="container">
     <h1>QCDocs is the Solution</h1>
+    <div class="divider-green"></div>
     <h2 class="margin-top">The Problem</h2>
     <ul class="text-left margin-top list">
       <li><span class="fa fa-caret-right"></span> Off-the-shelf accounting applications don’t handle multi-person company-wide processes</li>
@@ -69,6 +71,7 @@ include ("header.php");
 
 <section class="container text-center">
   <h1>Services</h1>
+  <div class="divider-blue"></div>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pharetra est sollicitudin purus lacinia pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nulla lectus, aliquet non facilisis quis, dignissim vitae nibh. Praesent quis tortor id magna condimentum rutrum quis a ex. Donec ac tristique turpis. Phasellus ultricies sem a dolor pharetra fermentum.</p>
 
   <div class="col-md-3 text-right services">
@@ -103,6 +106,7 @@ include ("header.php");
 <section class="text-center blurred-bg">
   <div class="container">
     <h1>Client Verticals</h1>
+    <div class="divider-green"></div>
     <h2 class="margin-top">Key challenges and QCDocs solutions for:</h2>
       <ul class="text-left margin-top list">
         <li><span class="fa fa-caret-right"></span> Startup Companies</li>
@@ -121,6 +125,7 @@ include ("header.php");
 
 <section class="container text-center">
   <h1>Implementations</h1>
+  <div class="divider-blue"></div>
     <p>QCDocs implementation and training are provided by professional accountants with extensive industry experience. We work with your bookkeeper or accounting department to streamline their workflows and accelerate internal financial processes. Our four implementation stages are rolled out as organization needs them, and allow you to select what topics and processes that will be covered. Through a series of half-day workshops, we guide the process of developing and implementing best practices-based processes, document-centric workflows and comprehensive electronic filing systems for your organization.</p>
   <div class="col-md-12 text-center">
     <a class="btn btn-primary" href="implementation.php">Learn More <span class="fa fa-angle-right"></a>
@@ -132,6 +137,7 @@ include ("header.php");
 <section class="text-center blurred-bg marginbot-none">
   <div class="container">
     <h1>About Us</h1>
+    <div class="divider-green"></div>
       <p>QCDocs Systems Inc. delivers a comprehensive back-office management suite designed for small to mid-sized companies. Our team comes from a wide range of backgrounds and industry sectors. We combine our different areas of expertise to build the best solution for automating and streamlining business and accounting processes. Our web-based products work on a Software as a Service (SaaS) basis. This flexible approach makes our products easy to implement and affordable to small and mid-sized businesses, helping them quickly improve their core accounting and administrative processes so they can focus on building their businesses not their back offices.</p>
     <h2 class="margin-top">Contact Us</h2>
       <p class="contact-icon"><span class="fa fa-phone"></span> Telephone: 604.241.8400</p>
