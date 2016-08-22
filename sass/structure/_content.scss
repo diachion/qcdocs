@@ -31,8 +31,21 @@ body {
     margin-top: 1em;
     margin-bottom: 3em;
   }
+  .col-md-3 {
+    @include tablet {
+      text-align: left;
+    }
+  }
   .col-md-6 {
     padding: 2em 3em;
+    .services-img {
+      @include tablet {
+        margin-bottom: 3em;
+      }
+    }
+    @include mobile {
+      padding: 0.5em 1em;
+    }
   }
   .iconz {
     border: 2px solid $lightblue;
@@ -62,6 +75,9 @@ body {
   background-attachment: fixed;
   background-position: 50%;
   padding: 4em 0;
+  @include mobile {
+    padding: 2em 0;
+  }
 }
 
 .marginbot-none {
@@ -119,6 +135,9 @@ body {
   position: relative;
   list-style-type: none;
   margin-top: 8em;
+  @include mobile {
+    margin-top: 4em;
+  }
   &::before {
     position: absolute;
     content: "";
@@ -126,6 +145,9 @@ body {
     height: 100%;
     left: 0;
     background: $darkblue;
+    @include tablet {
+      left: 25px;
+    }
   }
   .timeline-title {
     position: relative;
@@ -136,6 +158,15 @@ body {
     left: -30px;
     text-align: left;
     padding-left: 60px;
+    @include tablet {
+      font-size: 1.1em;
+      padding-left: 75px;
+    }
+    @include mobile {
+      border-radius: 10px;
+      left: 0;
+      padding-left: 35px;
+    }
     .timeline-num {
       position: absolute;
       //content: "";
@@ -148,6 +179,21 @@ body {
       border-radius: 50%;
       left: -55px;
       top: -23px;
+      @include tablet {
+        width: 80px;
+        height: 80px;
+        top: -15px;
+        left: -20px;
+        line-height: 80px;
+      }
+      @include mobile {
+        top: -5px;
+        left: -45px;
+        width: 70px;
+        height: 100px;
+        line-height: 100px;
+        border-radius: 4px;
+      }
     }
     // .timeline-num {
     //   display: inline-block;
@@ -168,6 +214,12 @@ body {
     margin-bottom: 5em;
     text-align: left;
     padding-left: 60px;
+    @include tablet {
+      padding-left: 45px;
+    }
+    @include mobile {
+      padding-left: 20px;
+    }
   }
   .timeline-last {
     .timeline-title {
@@ -182,6 +234,12 @@ body {
         border-radius: 50%;
         left: -20px;
         top: 5px;
+        @include tablet {
+          left: 5px;
+        }
+        @include mobile {
+          left: -25px;
+        }
       }
     }
   }

@@ -15,9 +15,6 @@ include ("header.php");
 <section class="container text-center">
   <h1>Client Verticals</h1>
   <div class="divider-blue"></div>
-</section>
-
-<section class="container text-center">
   <h2>Startup Companies</h2>
   <div class="col-md-4 margin-top">
     <img class="solutions-img" src="imgs/startupv2.jpg">

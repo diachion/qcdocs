@@ -38,7 +38,7 @@
       font-size: inherit;
       >a {
         color: #DAF7DC;
-        &:hover {
+        &:hover, &:focus {
           color: #7CCC6F;
         }
       } // a
@@ -67,11 +67,8 @@
       >a {
         color: #fff;
         text-shadow: 1px 1px 1px #000;
-        &:hover {
+        &:hover, &:focus {
           color: $darkgreen;
-        }
-        &:focus {
-          color: #000;
         }
       } // a
     } // li

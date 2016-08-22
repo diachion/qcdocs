@@ -41,6 +41,14 @@ form {
   }
   #submit {
     float: right;
+    @include tablet {
+      margin-top: 3em;
+    }
+    @include mobile {
+      float: none;
+      margin: 2em auto 0 auto;
+      display: block;
+    }
   }
   .form-wrap {
     margin: 35px auto 0 auto;

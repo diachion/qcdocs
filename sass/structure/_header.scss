@@ -32,6 +32,14 @@ header {
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   transform: translateY(-50%);
+  @include mobile {
+    h1 {
+      font-size: 1.8em;
+    }
+    h3 {
+      font-size: 1.2em;
+    }
+  }
   h3 {
     color: #fff;
   }
@@ -40,10 +48,22 @@ header {
     max-width: 400px;
     margin: 0 auto;
     display: block;
+    @include mobile {
+      max-width: 200px;
+    }
   }
   .fa {
     font-size: 1.5em;
     padding-right: 0.3em;
+  }
+  .revolution {
+    color: #8cc63f;
+    text-transform: uppercase;
+    margin-top: 3.5em;
+    @include mobile {
+      margin-top: 1.5em;
+      font-size: 1.3em;
+    }
   }
 }
 

@@ -69,12 +69,12 @@ include ("header.php");
 
 <!-- divivder --> <!-- <div class="container divider"></div> -->
 
-<section class="container text-center">
+<section class="container text-center services">
   <h1>Services</h1>
   <div class="divider-blue"></div>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pharetra est sollicitudin purus lacinia pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nulla lectus, aliquet non facilisis quis, dignissim vitae nibh. Praesent quis tortor id magna condimentum rutrum quis a ex. Donec ac tristique turpis. Phasellus ultricies sem a dolor pharetra fermentum.</p>
 
-  <div class="col-md-3 text-right services">
+  <div class="col-md-3 text-right">
     <div class="blue-line"></div>
     <h3>Quick, practical policies & internal control</h3>
       <p>Out of the box, QCDocs offers companies a complete set of standardized accounting and HR policies and forms for purchasing, expense reporting, time and vacation tracking, and more.</p>
@@ -87,7 +87,7 @@ include ("header.php");
     <img class="services-img" src="imgs/services.jpg">
   </div>
 
-  <div class="col-md-3 text-left services">
+  <div class="col-md-3 text-left">
     <div class="blue-line"></div>
     <h3>Your online processes & communications portal</h3>
       <p>The QCDocs Web Portal provides a central process and communications hub for your company.</p>
