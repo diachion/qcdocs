@@ -44,6 +44,27 @@
       } // a
     } // li
   } // .navbar-nav
+  .navbar-toggle {
+    border-color: transparent;
+    &:hover, &:focus {
+      background: transparent;
+    }
+    .icon-bar {
+      background: #fff;
+    }
+  }
+  .navbar-collapse {
+    @include mobile {
+      .nav > li:last-child > a {
+        border: none;
+        margin: 0;
+        &:hover, &:focus {
+          color: $darkgreen;
+          background: transparent;
+        }
+      }
+    }
+  }
 }
 
 .navbar-inverse {
@@ -73,4 +94,19 @@
       } // a
     } // li
   } // .navbar-nav
+  .navbar-toggle {
+    border-color: transparent;
+  }
+  .navbar-collapse {
+    @include mobile {
+      background: rgba(0,0,0,0.75);
+      .nav > li:last-child > a {
+        border: none;
+        margin: 0;
+        &:hover, &:focus {
+          color: $darkgreen;
+        }
+      }
+    }
+  }
 }

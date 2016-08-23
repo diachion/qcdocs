@@ -394,6 +394,19 @@ section {
       color: #DAF7DC; }
       .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
         color: #7CCC6F; }
+  .navbar-default .navbar-toggle {
+    border-color: transparent; }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+      background: transparent; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background: #fff; }
+  @media screen and (max-width: 481px) {
+    .navbar-default .navbar-collapse .nav > li:last-child > a {
+      border: none;
+      margin: 0; }
+      .navbar-default .navbar-collapse .nav > li:last-child > a:hover, .navbar-default .navbar-collapse .nav > li:last-child > a:focus {
+        color: #7CCC6F;
+        background: transparent; } }
 
 .navbar-inverse {
   position: absolute;
@@ -417,6 +430,16 @@ section {
       text-shadow: 1px 1px 1px #000; }
       .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
         color: #7CCC6F; }
+  .navbar-inverse .navbar-toggle {
+    border-color: transparent; }
+  @media screen and (max-width: 481px) {
+    .navbar-inverse .navbar-collapse {
+      background: rgba(0, 0, 0, 0.75); }
+      .navbar-inverse .navbar-collapse .nav > li:last-child > a {
+        border: none;
+        margin: 0; }
+        .navbar-inverse .navbar-collapse .nav > li:last-child > a:hover, .navbar-inverse .navbar-collapse .nav > li:last-child > a:focus {
+          color: #7CCC6F; } }
 
 /*------------------------------------*\
     HEADER
